@@ -1,9 +1,9 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: redis-app-pod
+  name: redis-pod
   labels:
-    name: redis-app-pod
+    name: redis-pod
     app: demo-voting-app
 spec:
   containers:
